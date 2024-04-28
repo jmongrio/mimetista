@@ -1,0 +1,7 @@
+.bg-custom-secondary{
+    background-color: var(--color-secondary) !important;
+}
+
+.border-bottom-custom{
+    border-bottom: 1px solid #ffc4c4 !important;
+}

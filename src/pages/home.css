@@ -1,0 +1,28 @@
+.white-section {
+    color: black;
+}
+
+.clean-btn {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.btn-custom-shape {
+    background: var(--color-primary);
+    position: relative;
+    overflow: hidden;
+    clip-path: polygon(5% 0, 95% 0, 100% 25%, 100% 75%, 95% 100%, 5% 100%, 0 75%, 0 25%);
+}
+
+.section-shape-top{
+    clip-path: polygon(10% 0, 90% 0, 100% 30%, 100% 100%, 100% 100%, 0% 100%, 0 100%, 0 30%);
+}
+
+.section-shape-bottom{
+    clip-path: polygon(0% 0, 100% 0, 100% 25%, 100% 70%, 90% 100%, 10% 100%, 0 70%, 0 0%);
+}

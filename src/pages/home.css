@@ -26,3 +26,22 @@
 .section-shape-bottom{
     clip-path: polygon(0% 0, 100% 0, 100% 25%, 100% 70%, 90% 100%, 10% 100%, 0 70%, 0 0%);
 }
+
+@media screen and (max-width: 768px) {
+    .section-shape-top{
+        clip-path: polygon(0% 0, 100% 0, 100% 30%, 100% 100%, 100% 100%, 0% 100%, 0 100%, 0 30%);
+    }
+
+    .section-shape-bottom{
+        clip-path: polygon(0% 0, 100% 0, 100% 25%, 100% 70%, 100% 100%, 0% 100%, 0 70%, 0 0%);
+    }
+
+    .flex-responsibe{
+        flex-direction: column;
+    }
+
+    .card-responsive{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
